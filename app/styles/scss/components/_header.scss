@@ -1,0 +1,56 @@
+@media all and (min-width: 1280px) {
+  header{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 0rem;
+    left: 0rem;
+    height: 13.2rem;
+    line-height: 13.2rem;
+    background: transparent;
+    z-index: 1;
+    a{
+      height: 13.2rem;
+      line-height: 13.2rem;
+      font-size: 0rem;
+      vertical-align: top;
+    }
+    .logo img{
+      width: 38.4rem;
+    }
+  }
+}
+@media all and (max-width: 1279px) {
+  header{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 0rem;
+    left: 0rem;
+    height: 13.2rem;
+    line-height: 13.2rem;
+    background: transparent;
+    z-index: 1;
+    a{
+      height: 13.2rem;
+      line-height: 13.2rem;
+      font-size: 0rem;
+      vertical-align: top;
+    }
+    .logo img{
+      width: 38.4rem;
+    }
+    .social{
+      display: inline-block;
+      margin-left: 3rem;
+      a{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+      }
+    }
+    .social img{
+      width: 5.3rem;
+    }
+  }
+}
+

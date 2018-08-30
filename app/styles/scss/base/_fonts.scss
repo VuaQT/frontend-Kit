@@ -1,0 +1,30 @@
+@import "fa/variables";
+
+@font-face {
+    font-family: 'UTM Bebas';
+    src: url('../fonts/UTMBebas.woff2') format('woff2'),
+    url('../fonts/UTMBebas.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Condensed';
+    src: url('../fonts/GothamCondensed-UltraItalic.woff2') format('woff2'),
+    url('../fonts/GothamCondensed-UltraItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'UTM Futura Extra';
+    src: url('../fonts/UTMFuturaExtra.woff2') format('woff2'),
+    url('../fonts/UTMFuturaExtra.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

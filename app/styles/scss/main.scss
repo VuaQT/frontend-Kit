@@ -1,0 +1,38 @@
+@charset 'UTF-8';
+
+/// Configuration and helpers
+@import 'utils/variables',
+'utils/functions',
+'utils/mixins',
+'utils/helpers';
+/// Vendors
+@import 'vendor/mq',
+'vendor/media-queries', //reset
+'vendor/normalize'; //reset
+//'vendor/jquery-ui-structure', //jquery ui - standards
+//'vendor/jquery-ui-theme',
+//'vendor/nice-select';
+//jquery ui rolled theme for CMS
+/// Base
+@import 'base/base',
+'base/fonts',
+'base/typography';
+///// Layout
+//@import 'layout/grid',
+//'layout/header',
+//'layout/footer';
+/// Components
+@import 'components/_aos.scss';
+@import 'components/hover-min';
+@import 'components/animation';
+@import 'components/animate';
+@import 'components/section-1';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/social';
+@import 'components/flipper';
+/// Page-specific
+@import 'pages/common';
+@import 'pages/home';
+
+

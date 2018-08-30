@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'UTM Bebas';
+    src: url('UTMBebas.woff2') format('woff2'),
+        url('UTMBebas.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Condensed';
+    src: url('GothamCondensed-UltraItalic.woff2') format('woff2'),
+        url('GothamCondensed-UltraItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+

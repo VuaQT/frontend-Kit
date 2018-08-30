@@ -1,0 +1,52 @@
+a {
+  display: inline-block;
+  &:hover {
+    text-decoration: none;
+  }
+  &:link {
+    text-decoration: none;
+  }
+}
+body{
+  font-size: 1.8rem;
+}
+img {
+  max-width: 100%;
+}
+.red{
+  color: #ff4c4c;
+}
+.bold{
+  font-weight: bold;
+}
+.section{
+  overflow: hidden !important;
+  position: relative;
+}
+@media all and (min-width: 1280px){
+  .container{
+    width: 128rem;
+    padding: 0rem;
+  }
+  .hide-on-pc{
+    display: none !important;
+  }
+  .page{
+    //padding-top: 6.9rem;
+  }
+}
+
+@media all and (max-width: 1279px) {
+  body {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  .hide-on-mobile {
+    display: none !important;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
